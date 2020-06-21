@@ -1,0 +1,2 @@
+client_secret = "TOKEN"
+token_url = "https://anilist.co/api/v2/oauth/token"
