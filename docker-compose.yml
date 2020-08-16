@@ -1,0 +1,9 @@
+version: '3'
+services:
+  fubuki_oauth:
+    container_name: fubuki_oauth_docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - "3000:3000"
