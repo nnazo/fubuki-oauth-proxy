@@ -2,6 +2,7 @@ version: '3'
 services:
   fubuki_oauth:
     container_name: fubuki_oauth_docker
+    restart: always
     build:
       context: .
       dockerfile: Dockerfile
