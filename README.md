@@ -3,7 +3,8 @@
 A web server for proxying OAuth2 token exchanges to AniList, allowing you store your client secret on the proxy server instead in your client application.
 
 ## Prerequisites
-* Rust
+* Docker, Docker Compose
+
 
 ## Usage
 1. In `Settings.toml` set the `client_secret` to your client secret.
