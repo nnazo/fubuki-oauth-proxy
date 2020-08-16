@@ -7,4 +7,4 @@ A web server for proxying OAuth2 token exchanges to AniList, allowing you store 
 
 ## Usage
 1. In `Settings.toml` set the `client_secret` to your client secret.
-2. Run the server in the docker container using `docker-compose up --build`
+2. Run the server in the docker container using `docker-compose up -d --build`
